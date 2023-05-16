@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(198,219,207);
+    text-align: center;
+    background-image: url(/gamer-g809aa7264_1280.png);
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background-color: rgb(228, 222, 222);
+    display: inline-block;
+    padding: 40px;
+    margin: 5px;
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(228, 222, 222);
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: rgb(228, 222, 222);
+    cursor: pointer;
+}
