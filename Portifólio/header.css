@@ -50,3 +50,28 @@
 .information .email::before  {
     background-image: url(/icons/email.svg);
 }
+
+@media only screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-areas: 
+        "photo title"
+        "photo information"
+        ;
+    }
+
+    .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 200px;
+    }
+
+    .information {
+        grid-area: information;
+    }
+}
