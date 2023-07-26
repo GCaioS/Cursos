@@ -20,7 +20,7 @@ body {
 
 .main::before {
     content: '';
-    background-image: url(/icons/background.svg);
+    background-image: url(../icons/background.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 140vw;
@@ -34,7 +34,7 @@ body {
 
 .main::after {
     content: '';
-    background-image: url(/icons/background.svg);
+    background-image: url(../icons/background.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 140vw;
